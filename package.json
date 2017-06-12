@@ -6,12 +6,6 @@
   "repository": "https://github.com/conterra/grunt-jsreg-jsdoc-to-md.git",
   "license": "Apache-2.0",
   "keywords": ["gruntplugin"],
-  "engines": {
-    "node": ">=0.10.0"
-  },  
-  "peerDependencies": {
-    "grunt": ">=0.4.0"
-  },
   "scripts": {
     "test": "./node_modules/.bin/intern-client config=tests/intern",
     "clean" : "rmdir /S/Q tmp"

@@ -33,12 +33,13 @@ module.exports = function(grunt) {
         var dirs = [];
         this.files.forEach((file) => {
             dirs.push({
-                src: path.dirname(file.src) + "/**/*.js",
-                dest: path.dirname(file.dest) + "/" + filename
+                src: path.dirname(String(file.src)) + "/**/*.js",
+                dest: path.dirname(String(file.dest)) + "/" + filename
             });
         });
         var toProcess = dirs.length;
         dirs.forEach((dir) => {
+            console.log("dir: "+dir);
             writeAPIDoc(grunt, dir, function() {
                 if (!--toProcess) {
                     done();

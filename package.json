@@ -1,7 +1,7 @@
 {
   "name": "grunt-jsreg-jsdoc-to-md",
-  "author": "Marko Reiprecht",    
-  "version": "0.0.1",
+  "author": "Marko Reiprecht",
+  "version": "0.0.2",
   "description": "Markdown API Doc generator, for js registry projects",
   "repository": "https://github.com/conterra/grunt-jsreg-jsdoc-to-md.git",
   "license": "Apache-2.0",
